@@ -1,0 +1,11 @@
+.cardimage {transition: all linear 0.25s}
+
+.cardimage:hover  { opacity: 0.7}
+
+.cardex:hover {transform: scale(0.78);
+    transition: all linear 1s}
+.Navex{background-color:  rgba(255, 178, 169, 0.774);
+border: solid white 2px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #00000030;}
+
+

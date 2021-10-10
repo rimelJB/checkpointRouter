@@ -5,6 +5,7 @@ import NavBar from "./Components/NavBar";
 import AddMovie from "./Components/AddMovie";
 
 
+
 function App() {
   const [movies, setMovies] = useState(MovieData)
   const [nameSearch, setNameSearch] = useState('');

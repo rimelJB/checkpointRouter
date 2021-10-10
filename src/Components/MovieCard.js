@@ -3,21 +3,24 @@ import React from 'react';
 import { Card} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactStars from "react-rating-stars-component";
+import "../Components/MovieCard.css";
+
 
 const MovieCard = ({movie}) => {
 
     return (
-    <div >
+    <div style={{marginTop:"60px"}} >
         {
 
-        <Card style={{width: '18rem', margin :'30px' ,height:'45rem'}} >
-           <Card.Img variant="top" src= {movie.image} alt="pic" style={{minHeight : '30rem'}}/>
+        <Card className="cardex" style={{width: '20em',margin :'30px' ,height:'45rem', border:"solid white 3px", 
+            boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #00000030"}} >
+           <Card.Img className="cardimage" src= {movie.image} alt="pic" />
              <Card.Body style ={{display :'flex', flexDirection:'column'}}>
                     <Card.Title style ={{height : '25px', width:'auto', overflowY:'auto'}}>{movie.name}</Card.Title>
                     <ReactStars
                         count={5}
                         size={20}
-                        isHalf={false}
+                        isHalf={true}
                         emptyIcon={<i className="far fa-star"></i>}
                         halfIcon={<i className="fa fa-star-half-alt"></i>}
                         fullIcon={<i className="fa fa-star"></i>}
@@ -29,8 +32,7 @@ const MovieCard = ({movie}) => {
                      {movie.description}
                     </Card.Text>
 
-              </Card.Body>
-              
+              </Card.Body>   
         </Card>
         }
         

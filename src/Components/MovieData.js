@@ -10,7 +10,7 @@ export const MovieData = [
     {
       id: Math.random(),
       image: "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
-      rating: 3,
+      rating: 3.5,
       name: "Avengers: Infinity War",
       description:
         "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos.",
@@ -27,7 +27,7 @@ export const MovieData = [
       id: Math.random(),
       image:
         "https://images-na.ssl-images-amazon.com/images/I/51oDs32SXlL._AC_.jpg",
-      rating: 2,
+      rating: 2.5,
       name: "Fantastic Beasts and Where to Find Them",
       description:
         "The adventures of writer Newt Scamander in New York's secret community of wizards",
@@ -55,7 +55,7 @@ export const MovieData = [
 
       {  id: Math.random(),
         image:"https://fr.web.img2.acsta.net/c_310_420/pictures/20/01/29/10/48/2864793.jpg",
-        rating:4,
+        rating:4.5,
         name:"ISI & OSSI",
         description:"Bien décidée à réaliser son rêve, la fille d'un milliardaire forme une alliance originale avec le fils d'une mère célibataire lui aussi résolu à réaliser le sien."
          },
@@ -64,7 +64,7 @@ export const MovieData = [
         name:"To All The Boys: Always and Forever",
         description:"Le troisième volet de la trilogie À tous les garçons que j'ai aimés.Tout a commencé avec une lettre d'amour, puis s'est poursuivi avec une nouvelle romance. Et maintenant, que réserve l'avenir à Lara Jean et Peter ?",
         image:"https://fr.web.img3.acsta.net/c_310_420/pictures/21/01/20/10/27/2398485.jpg",
-        rating:3 },
+        rating:3.5 },
       
       {  id: Math.random(),
         name:"The kissing Booth",
