@@ -25,7 +25,7 @@ export default function NavBar({
         style={{
           fontWeight: "bold",
           marginLeft: "150px",
-          fontColor: "white",
+          color: "white",
           fontSize: "2em",
           fontStyle: "oblique",
         }}
@@ -64,7 +64,16 @@ export default function NavBar({
             }}
           >
             <span>
-              <i>Search by rating</i>
+              <i
+                style={{
+                  fontWeight: "bold",
+                  color: "white",
+                  fontSize: "1em",
+                  fontStyle: "oblique",
+                }}
+              >
+                Search by Rating
+              </i>
             </span>
 
             <ReactStars
